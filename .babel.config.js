@@ -152,7 +152,7 @@ module.exports = {
       ],
       loose: true,
       modules: false,
-      targets: { node: 6 }
+      targets: { node: 18 }
     }]
   ],
   sourceMaps: false
