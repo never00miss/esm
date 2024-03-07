@@ -1,4 +1,4 @@
-/* eslint strict: off, node/no-unsupported-features: ["error", { version: 6 }] */
+/* eslint strict: off, node/no-unsupported-features: ["error", { version: 18 }] */
 
 const globalThis = (function () {
   // Reference `this` before `Function()` to prevent CSP errors for unsafe-eval.
