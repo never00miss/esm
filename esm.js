@@ -151,7 +151,7 @@ if (isElectronRenderer) {
 let shared
 
 shared = loadESM()
-
+console.log('shared', shared);
 if (cachePath !== "") {
   const { dir } = shared.package
 
